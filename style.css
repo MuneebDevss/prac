@@ -1,0 +1,155 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+ :root
+ {
+    --main-bg-color:black;
+ }
+*
+{
+    margin: 0;
+    padding: 0;
+}
+nav
+{
+    display: flex;
+    flex-direction: row;
+    background-color: blanchedalmond;
+    height: 18vh;
+    justify-content:start;
+    align-content: center;
+    position:sticky;
+    top: 0;
+}
+/* hamburgere */
+.center
+{
+    padding: 0 0 0 33px;
+    width: 2em;
+}
+.center:hover
+{
+    background-color: blue;
+}
+/* logo */
+.center2
+{
+    width: 8em;
+}
+
+.search
+{
+    align-self: center;
+    display: flex;
+    align-items: center;
+    height: 13vh;
+}
+.text
+{
+    margin: 12px 30px;
+    height: 21px;
+    border-radius: 13px;
+    width :23vw;
+    font-family: 'Roboto', sans-serif;
+}
+.BUTTON
+{
+    
+    margin: 0 59px 0 0;
+    width: 44px;
+    height:17px;
+    border-radius: 13px;
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.BUTTON:hover
+{
+    background-color: rgb(227, 105, 105);
+}
+.logoim
+{
+    height: auto;
+    width: 33px;
+    padding: 4px 0 6px 13px;
+}
+.CenterLogin
+{
+    margin: 0 45px 0 0;
+    align-self: center;
+}
+.CenterLogin:hover
+{
+    font-weight: bold;
+}
+.CenterLogin a
+{
+    text-decoration: none;
+    color: black;
+}
+main
+{
+    min-height: calc(100vh - 13vh - 25vh);
+}
+.middle
+{
+    /* background-color: rgba(0, 0, 255, 0.354); */
+    width: 80vw;
+    margin:13px auto;
+    display: flex;
+    justify-content: center;
+}
+.unsplash
+{
+    width: 423px;
+    border-radius: 16px;
+}
+.cards
+{
+
+    max-width: 80vw;
+    margin: auto;
+    height: 25vh;
+    display: flex;
+    overflow:scroll;
+}
+.card
+{
+    width: 221px;
+    margin: 13px 9px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.cardimage
+{
+    width: 80%;
+    margin: 9px auto;
+    border-radius: 3px;
+}
+.card:hover
+{
+    box-shadow: 3px 3px 3px 3px rgba(51, 41, 41, 0.459);
+}
+.my-1
+{
+    font-size: medium;
+    padding: 12px 0;
+    text-align: center;
+}
+.my-2
+{
+    font-weight: 200;
+    font-size: small;
+    text-align: center;
+}
+footer
+{
+    margin: 23px 0 0 0;
+    display: flex;
+  background-color:var(--main-bg-color);
+  color: white;
+  height: 25vh;
+  justify-content: center;
+  align-items: center;
+}
